@@ -1,0 +1,410 @@
+/* #e05915 */
+body{
+  margin:0;
+  padding:0;
+  
+}
+
+.navbar .navbar-brand{
+  font-size:30px;
+  color:blue;
+  text-shadow: 2px 2px .5rem rgb(235, 199, 0);
+  letter-spacing: 1px;
+  font-weight: bold; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform:uppercase;
+}
+.navbar{
+    border-radius: 0;
+    border:0;
+    background-image:linear-gradient(to right, #000080,#00004d);
+    /* font-weight:normal; */
+    padding:5px;
+
+    
+}
+.navbar .navbar-nav li a{
+  color:#fff !important;
+  font-size:12px;
+  display:block;
+  /* font-weight:bold; */
+  text-transform: uppercase;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  font-family: Arial, Helvetica, sans-serif
+    
+    
+}
+
+
+.navbar .navbar-nav li a:hover{
+    color:#fcce01 !important;
+    /* border-bottom:3px solid #e05915; */
+    
+    /* font-size: 20px; */
+}
+
+.navbar .navbar-nav li a:active{
+    
+    background-color:  #e05915!important;
+}
+.sub-menu1{
+  display:none;
+  
+}
+.sub-menu1 li a{
+  text-decoration:none !important;
+  /* font-size:16px !important; */
+  /* font-weight:normal !important; */
+  text-transform: capitalize !important;
+}
+.navbar-nav li:hover .sub-menu1{
+  position:absolute;
+  display:block;
+  margin-top:5px;
+  margin-left:-48px;
+}
+.navbar-nav li:hover .sub-menu1 ul li{
+  width:200px;
+  padding:10px;
+  border-bottom: 1px solid #000;
+  background-image:linear-gradient(to right,#00004d,#4d00b2);
+    
+  
+
+}
+.navbar .navbar-nav li:hover .sub-menu1 ul li:last-child{
+  border-bottom:none;
+}
+.navbar .navbar-nav li:hover .sub-menu1 ul{
+  list-style-type: none;
+}
+
+.logo{
+  font-size:30px;
+  color:rgb(250, 213, 2) !important;
+  font-weight: bold;
+  text-shadow: 2px 2px .5rem blue;
+}
+#myheader{
+  position: relative;
+  height:100vh;
+  width:100%;
+  background-image: url('../images/bitbanner.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-blend-mode: difference;
+}
+.main{
+  position:absolute;
+  top:45%;
+  left:100px;
+  text-align:center;
+  /* background-color:#ccc; */
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  padding:50px;
+}
+.inner-content{
+  text-align: center;
+  padding: 0 15px;
+  color: #fff;
+  font-size: 26px;
+  line-height: 36px;
+  z-index: 2;
+  font-family:'Roboto', sans-serif;
+}
+.account-button{
+  position: absolute;
+  top:90%;
+  left:37%;
+  background-color:goldenrod;
+  color:#fff;
+  font-size:16px;
+  font-weight:bold;
+  padding:10px;
+  /* position: absolute; */
+  /* margin-top:450px; */
+  /* margin-left:400px; */
+  text-align:center;
+  border:0;
+  outline:none;
+  border-radius:5px;
+  text-transform:uppercase;
+}
+#main-heading{
+  position:relative;
+  /* top:150px; */
+  color:#fff;
+  font-size:55px;
+  text-align:center;
+  font-weight:bold;
+  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
+}
+#main-content{
+  
+  color:#fff;
+  font-size:25px;
+  line-height: 3.1rem;
+  /* padding:10px; */
+  font-family:'lato', sans-serif;
+  
+  
+}
+#reg-form{
+  position: relative;
+  top:30px;
+  
+}
+.custom-input{
+  /* padding:20px 15px; */
+  outline:none;
+  height:44px;
+  font-size:16px;
+  
+}
+.easy-to-learn{
+  background-color: #d6794a;
+  position: relative;
+  padding:74px 56px;
+
+}
+.simple{
+  font-size: 30px;
+  font-weight:bold;
+  font-family: 'lato', sans-serif;
+  text-align: center;;
+  text-transform:capitalize;
+  color:#151517;;
+
+}
+#simple-para{
+  font-size:1.4em;
+  line-height: 2em;
+  color:#fff;
+  margin: 0.5em 0 2em 0;
+  padding:10px 12px;
+
+}
+.wrapper{
+  width:100% !important;
+}
+.trading{
+  position:relative;
+  top:10px;
+  left:30%;
+  background-color:black;
+  color:#fff;
+  font-size:22px;
+  border:none;
+  outline:none;
+  font-weight:bold
+}
+.trading:hover{
+  color:#ccc;
+}
+.atrade{
+  text-decoration: none;
+
+}
+.atrade:hover{
+  text-decoration:none;
+  cursor: pointer;
+}
+.benefit{
+  text-align:center;
+  font-size:15px;
+  padding:5px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4em;
+}
+.title-trading{
+  color:#151517;
+  font-size:22px;
+  font-family:'lato', sans-serif;
+  font-weight: bold;
+  text-align:center;
+}
+.features{
+  position:relative;
+  top:-30px;
+  bottom: 10px;
+  padding:30px;
+}
+.imgbox{
+  color:blue;
+}
+
+.secure{
+  margin:0;
+  padding:0;
+  list-style-type: none;
+
+}
+.secureL{
+  font-size: 14px;
+  color:#555555;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom:10px
+}
+
+.benefits{
+  text-align:center;
+  font-size:22px;
+  text-transform:capitalize;
+  color:blue;
+  font-family:'lato',sans-serif;
+  font-weight:bold;
+
+}
+.safe{
+  text-align: center;
+  font-size:17px;
+  color:#151517;
+  padding:5px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.trade-benefit{
+  padding-top:20px;
+  font-size:40px;
+  font-weight:bold;
+  text-align:center;
+  font-family:'Roboto',sans-serif;
+  text-transform: uppercase;
+  color:#e05915;
+
+}
+.new-style{
+  margin-top:5px;
+  margin-bottom: 7px;
+  padding:30px;
+
+}
+#your-investment{
+  margin-bottom:40px;
+  text-align:center;
+  font-weight:bold;
+  color:#4d00b2;
+  font-family: 'Roboto', sans-serif;
+  font-size:40px;
+ 
+}
+.apply{
+  text-transform:uppercase;
+  font-size:50px;
+  color:blue;
+  font-weight:400;
+  margin-bottom:50px;
+}
+.alogo{
+  font-size:30px;
+  color:blue;
+  text-shadow: 2px 2px .5rem rgb(235, 199, 0);
+  letter-spacing: 1px;
+  font-weight: bold; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform:uppercase;
+  margin-left:-40px;
+
+}
+.footer{
+  background-image:linear-gradient(to right, #000080,#00004d);
+  padding:50px;
+  color:#fff;
+  font-size:14px;
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+.footer h5{
+  font-size:15px;
+  text-transform:uppercase;
+  font-family:'Roboto', sans-serif;
+}
+.footer ul{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+.footer li{
+  margin-left:-5px;
+}
+.footer li a{
+  text-decoration:none;
+  color:#fff;
+  padding:5px 8px;
+}
+.footer li a:hover{
+  color:gold;
+}
+.start-button{
+  margin-left:45%;
+  background-image:linear-gradient(to right,#c53a17,#4d00b2);
+  font-size:20px;
+  border-radius:20px;
+  outline:none;
+  border:none;
+  color:#fff;
+  padding:10px;
+}
+.explore{
+  font-size: 45px;
+  /* line-height: 60px; */
+
+}
+.explore-para{
+  color: #1c2e3d;
+  margin-bottom: 30px;
+  font-size: 16px;
+
+}
+.platform{
+  padding:50px;
+  background-color: aliceblue;
+}
+.tools{
+  margin-top:30px;
+  margin-bottom:30px;
+  padding:50px;
+}
+#about-us{
+  padding-top:50px;
+  padding-bottom:50px;
+  background-color:#f8f9fa;
+}
+#about-us ul li{
+  margin:10px 0;
+}
+#about-us h2{
+  margin-left:40px;
+  font-size:30px;
+  font-weight:400;
+}
+.testimonials{
+  margin-top:50px;
+  border-left:4px solid #c53a17;
+  margin-bottom:50px;
+}
+.user-details{
+  display:inline-block;
+  font-size:12px;
+}
+.testimonials img{
+  height:60px;
+  width:60px;
+  margin:0 10px;
+}
+.social-icon img{
+  height:60px;
+  transition:0.5s;
+}
+.social-icon a:hover img{
+  transform: translateY(-8px);
+}
+.currency{
+  position:relative;
+  background-image: url('../images/bitcoin.jpg');
+  background-size:cover;
+  height:300px;
+  
+}
